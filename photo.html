@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>My Photo Gallery</h2>
+
+    <div class="gallery">
+        <img src="https://i.pinimg.com/736x/b5/4b/1d/b54b1d2e6cba0a57e0ad17e774b03bd2.jpg">
+        <img src="https://i.pinimg.com/1200x/d9/5c/e6/d95ce6e5807d616d7cb7691316cb616e.jpg">
+        <img src="https://i.pinimg.com/736x/07/4d/b7/074db722788eae273dc49a3d0723f884.jpg">
+        <img src="https://i.pinimg.com/1200x/df/28/36/df2836fd8a5b9bc7efe1050f244b2bbd.jpg">
+        <img src="https://i.pinimg.com/1200x/b5/e5/dd/b5e5ddda7a5191cec04f7f7caf4f755b.jpg">
+        <img src="https://i.pinimg.com/1200x/93/ae/1a/93ae1aa9b1dcec003e6147c030f4b0f8.jpg">
+        <img src="https://i.pinimg.com/736x/62/cf/ec/62cfec6af7d969913b7950381131422c.jpg">
+        <img src="https://i.pinimg.com/736x/cf/16/09/cf1609d22042a4bf56e0e2f92a7ff967.jpg">
+        <img src="https://i.pinimg.com/736x/79/e0/e3/79e0e3a84b75ecec977818ebac4f62c8.jpg">
+        <img src="https://i.pinimg.com/736x/96/b3/ad/96b3adacfa5fba42c05b0e4f31e5ed49.jpg">
+        <img src="https://i.pinimg.com/736x/d6/5e/3d/d65e3d530952a5c33d4cb60884b272c9.jpg">
+        <img src="https://i.pinimg.com/1200x/b5/39/bb/b539bb17dc43dc58422888e26fe87973.jpg">
+        <img src="https://i.pinimg.com/1200x/be/45/e3/be45e368aa6d389f7ae6d6c467e268fd.jpg">
+        <img src="https://i.pinimg.com/1200x/60/71/2e/60712ea761df460cff24b0fd1518b4f5.jpg">
+        <img src="https://i.pinimg.com/736x/04/fe/1b/04fe1befb7b4244550cba142d168429d.jpg">
+        <img src="https://i.pinimg.com/1200x/eb/67/7a/eb677a0d1def0485b24e120abdc2c158.jpg">
+        <img src="https://i.pinimg.com/1200x/52/58/26/525826330bbb232357733ddabbe8d742.jpg">
+        <img src="https://i.pinimg.com/1200x/78/be/df/78bedf11a783c6e2fe8db8da5b3cf74a.jpg">
+    </div>
+
+</body>
+</html>
